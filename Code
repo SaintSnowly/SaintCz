@@ -1,28 +1,22 @@
-; Este script cola o conteúdo da sua área de transferência em um campo
-; onde o Ctrl+V normal não funciona, digitando letra por letra.
-
-; Pressione Ctrl+Alt+V para ativar a função de colar
+; Pressione Ctrl + Alt + V para "colar" o texto digitando-o
 ^!v::
-    SendMode Input  ; Garante que o texto seja enviado rapidamente
-    ClipboardBackup := ClipboardAll ; Salva o conteúdo atual da área de transferência
-
-    ; Pega o texto da área de transferência
-    Clipboard =
-    Send ^c ; Copia o que está selecionado (se houver algo, o script pode usar isso)
-    ClipWait 0.5 ; Espera no máximo 0.5 segundos pela área de transferência
-    If ErrorLevel
+    SendMode Input ; Usa um método de envio mais rápido e confiável
+    ClipboardOld := Clipboard ; Salva o conteúdo atual da área de transferência (opcional, mas bom para restaurar depois)
+    
+    ; Espera um tempo para garantir que a área de transferência foi preenchida
+    ; (Se você copiou manualmente o texto antes, pode pular essa linha ou ajustar o tempo)
+    ; ClipWait, 1 ; Espera até 1 segundo para o texto aparecer na área de transferência
+    
+    Loop, Parse, Clipboard, `n, `r ; Percorre cada linha e caractere da área de transferência
     {
-        MsgBox, 4096, Erro, Não foi possível obter o conteúdo da área de transferência.
-        Return
+        Loop, Parse, A_LoopField ; Percorre cada caractere da linha
+        {
+            Send %A_LoopField% ; Envia o caractere
+            Sleep, 10 ; Pequeno atraso para simular digitação humana (ajustável)
+        }
+        Send, {Enter} ; Envia Enter no final de cada linha (se o texto tiver múltiplas linhas)
+        Sleep, 50 ; Pequeno atraso após cada linha (ajustável)
     }
-
-    ; Agora, digite o conteúdo da área de transferência
-    Loop, parse, Clipboard
-    {
-        SendInput % A_LoopField
-        Sleep, 5 ; Pequeno atraso entre as letras para simular digitação real
-    }
-
-    Clipboard := ClipboardBackup ; Restaura a área de transferência para o que era antes
-    ClipboardBackup = ; Libera a memória
+    
+    Clipboard := ClipboardOld ; Restaura o conteúdo original da área de transferência (opcional)
 Return
