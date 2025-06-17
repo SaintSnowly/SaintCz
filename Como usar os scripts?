@@ -68,3 +68,18 @@ Observação importante: O script de gato dançante pode ser um pouco irritante 
 - Criar uma tecla de atalho para parar o script (por exemplo, F12::ExitApp).
 
 Lembre-se de que o script está em execução enquanto o arquivo .ahk estiver aberto. Se você quiser executá-lo automaticamente quando o Windows iniciar, você pode adicionar o arquivo .ahk à pasta de inicialização do Windows.
+
+
+
+
+*Estrelas caindo*
+
+Para executar o script:
+
+1. Crie um novo arquivo de script com a extensão .ahk.
+2. Cole o código do script acima no arquivo.
+3. Salve o arquivo e execute-o clicando duas vezes nele.
+4. Para parar o script, pressione a tecla F12.
+
+Observação: Esse script pode ser um pouco pesado para o sistema, então é recomendável fechá-lo quando não estiver em uso.
+
