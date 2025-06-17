@@ -12,7 +12,6 @@ O AutoClicker começará a clicar automaticamente no botão esquerdo do mouse a 
 Para parar o AutoClicker, você pode:
 
 Nesse script, quando você pressiona a tecla "L", o AutoClicker pausa ou resume. Uma mensagem na bandeja do sistema indica o estado atual do AutoClicker.
-
 Lembre-se de que o script precisa estar em execução para funcionar. Se você quiser parar o script completamente, pode fechar o AutoHotkey ou adicionar uma tecla de atalho para sair do script (por exemplo, "F12::ExitApp").
 
 
