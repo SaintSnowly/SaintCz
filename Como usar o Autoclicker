@@ -1,0 +1,14 @@
+Para usar esse script:
+
+1. Abra o AutoHotkey e crie um novo arquivo de script.
+2. Cole o código acima no arquivo.
+3. Salve o arquivo com um nome de sua escolha (por exemplo, "autoclicker.ahk").
+4. Execute o script clicando duas vezes no arquivo.
+
+O AutoClicker começará a clicar automaticamente no botão esquerdo do mouse a cada 1 segundo (ou o intervalo de tempo que você definir).
+
+Para parar o AutoClicker, você pode:
+
+ Pressionar a tecla "Pause" no teclado (ou "Pausa" em alguns teclados).
+ Fechar o script clicando no ícone do AutoHotkey na bandeja do sistema e selecionando "Exit".
+ Adicionar uma tecla de atalho para parar o script (por exemplo, "F12::ExitApp").
