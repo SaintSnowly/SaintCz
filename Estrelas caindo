@@ -1,0 +1,22 @@
+
+; Script de estrelas caindo
+
+#NoEnv
+SetBatchLines -1
+
+Gui +LastFound +AlwaysOnTop -Caption +ToolWindow
+Gui, Color, Black
+Gui, Show, x0 y0 w%A_ScreenWidth% h%A_ScreenHeight%, Estrelas
+
+Loop {
+    Random, x, 0, %A_ScreenWidth%
+    Random, y, 0, %A_ScreenHeight%
+    Gui, Add, Text, x%x% y%y% cWhite, *
+    Sleep, 100
+    Gui, Show
+}
+
+F12::
+    Gui, Destroy
+    ExitApp
+return
