@@ -47,7 +47,24 @@ Use no site:
 
 
 
-Gato Dançante 
+*Gato Dançante*
+
+Para executar esse script:
 
 Esse script faz o cursor do mouse se mover em um padrão de dança no centro da tela. 
 (não tem muita explicação)
+
+Para executar o script de gato dançante, você precisará seguir os passos abaixo:
+
+1. Instalar o AutoHotkey: Se você ainda não instalou o AutoHotkey, baixe e instale o programa no site oficial.
+2. Criar um novo arquivo de script: Abra o Bloco de Notas ou qualquer editor de texto e crie um novo arquivo.
+3. Colar o código do script: Cole o código do script de gato dançante que eu forneceu anteriormente no arquivo.
+4. Salvar o arquivo com extensão .ahk: Salve o arquivo com um nome de sua escolha, mas certifique-se de que a extensão seja .ahk (por exemplo, gatodancante.ahk).
+5. Executar o script: Clique duas vezes no arquivo .ahk que você criou. O script começará a executar e o cursor do mouse começará a dançar.
+
+Observação importante: O script de gato dançante pode ser um pouco irritante se você precisar usar o mouse para algo importante. Para parar o script, você pode:
+
+- Pressionar Ctrl + Alt + Delete e selecionar o AutoHotkey no Gerenciador de Tarefas para fechá-lo.
+- Criar uma tecla de atalho para parar o script (por exemplo, F12::ExitApp).
+
+Lembre-se de que o script está em execução enquanto o arquivo .ahk estiver aberto. Se você quiser executá-lo automaticamente quando o Windows iniciar, você pode adicionar o arquivo .ahk à pasta de inicialização do Windows.
