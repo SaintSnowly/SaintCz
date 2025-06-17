@@ -1,0 +1,10 @@
+; Script de gato dançante
+
+Loop {
+    MouseMove, % A_ScreenWidth // 2, % A_ScreenHeight // 2
+    Sleep, 100
+    MouseMove, % A_ScreenWidth // 2 + 50, % A_ScreenHeight // 2 + 50
+    Sleep, 100
+    MouseMove, % A_ScreenWidth // 2 - 50, % A_ScreenHeight // 2 - 50
+    Sleep, 100
+}
