@@ -1,0 +1,42 @@
+Auto Clicker:
+Para usar esse script:
+
+1. Abra o AutoHotkey e crie um novo arquivo de script.
+2. Cole o código acima no arquivo.
+3. Salve o arquivo com um nome de sua escolha (por exemplo, "autoclicker.ahk").
+4. Execute o script clicando duas vezes no arquivo.
+
+O AutoClicker começará a clicar automaticamente no botão esquerdo do mouse a cada 1 segundo (ou o intervalo de tempo que você definir).
+
+Para parar o AutoClicker, você pode:
+
+ Pressionar a tecla "Pause" no teclado (ou "Pausa" em alguns teclados).
+ Fechar o script clicando no ícone do AutoHotkey na bandeja do sistema e selecionando "Exit".
+ Adicionar uma tecla de atalho para parar o script (por exemplo, "F12::ExitApp").
+
+
+
+
+
+Ctrl+V
+Para usar esse script:
+
+Baixe e instale o AutoHotkey: Se você ainda não tem, baixe-o do site oficial: https://www.autohotkey.com/
+Crie um novo script:
+
+    Clique com o botão direito em qualquer lugar da sua área de trabalho ou em uma pasta.
+    Vá em "Novo" -> "AutoHotkey Script".
+    Dê um nome ao arquivo (por exemplo, ColarEmSite.ahk).
+
+Edite o script:
+
+    Clique com o botão direito no arquivo .ahk que você acabou de criar e selecione "Edit Script".
+    Apague o conteúdo padrão e cole o código acima.
+    Salve o arquivo e feche o editor.
+
+Execute o script: Dê um clique duplo no arquivo .ahk. Um ícone verde com um "H" deve aparecer na sua bandeja do sistema (perto do relógio).
+Use no site:
+
+    Copie o texto que você deseja colar (usando Ctrl+C ou o menu de contexto).
+    Vá para o campo no site onde você deseja colar.
+    Pressione Ctrl + Alt + V (o atalho definido no script).
