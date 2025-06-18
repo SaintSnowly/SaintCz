@@ -1,0 +1,5 @@
+Loop {
+    MouseGetPos, x, y
+    MouseMove, x + 10, y + 10
+    Sleep, 100
+}
