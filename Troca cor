@@ -1,0 +1,16 @@
+Loop {
+    Random, cor, 1, 5
+    if (cor = 1) {
+        Gui, Color, Red
+    } else if (cor = 2) {
+        Gui, Color, Green
+    } else if (cor = 3) {
+        Gui, Color, Blue
+    } else if (cor = 4) {
+        Gui, Color, Yellow
+    } else {
+        Gui, Color, Purple
+    }
+    Sleep, 1000
+    Gui, Show
+}
