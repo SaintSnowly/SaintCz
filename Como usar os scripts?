@@ -83,3 +83,17 @@ Para executar o script:
 
 Observação: Esse script pode ser um pouco pesado para o sistema, então é recomendável fechá-lo quando não estiver em uso.
 
+
+
+
+
+*Troca Cor*
+
+Para executar o script é o mesmos passos dos outros 
+Explicação dele:
+
+- Esse script troca a cor do fundo da tela a cada segundo.
+- Random gera um número aleatório entre 1 e 5 para determinar a cor do fundo.
+- Gui, Color define a cor do fundo da GUI (tela) com base no número aleatório.
+- Sleep pausa a execução do script por 1000 milissegundos (1 segundo) antes de repetir o loop.
+- Gui, Show mostra a GUI (tela) com a nova cor de fundo.
