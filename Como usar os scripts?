@@ -120,3 +120,18 @@ Para executar o script é o mesmos passos dos outros
 Explicação dele:
 
 - Esse script minimiza todas as janelas abertas quando você pressiona a tecla F6.
+
+
+
+
+*jogo de adivinhação*
+
+Para executar o script é o mesmos passos dos outros 
+Explicação dele:
+
+- Esse script cria um jogo de adivinhação onde o usuário tem que adivinhar um número aleatório entre 1 e 100.
+- A variável numero armazena o número aleatório gerado pelo script.
+- A variável adivinhacao armazena a resposta do usuário.
+- O script usa um loop While para continuar pedindo ao usuário para adivinhar até que ele acerte o número.
+- Dentro do loop, o script verifica se a resposta do usuário é menor ou maior que o número aleatório e exibe uma mensagem correspondente.
+
