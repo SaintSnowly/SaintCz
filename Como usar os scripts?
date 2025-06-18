@@ -110,3 +110,13 @@ Explicação dele:
 - MouseGetPos obtém a posição atual do cursor do mouse e armazena as coordenadas x e y nas variáveis x e y.
 - MouseMove move o cursor do mouse para uma posição 10 pixels à direita e 10 pixels abaixo da posição atual.
 - Sleep pausa a execução do script por 100 milissegundos (0,1 segundos) antes de repetir o loop.
+
+
+
+
+*Script para minimizar todas as janelas*
+
+Para executar o script é o mesmos passos dos outros 
+Explicação dele:
+
+- Esse script minimiza todas as janelas abertas quando você pressiona a tecla F6.
