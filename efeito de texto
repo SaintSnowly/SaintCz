@@ -1,0 +1,9 @@
+; Crie um efeito de texto
+texto := "Olá, mundo!"
+Loop, % StrLen(texto) {
+    Gui, Add, Text, x10 y10, % SubStr(texto, 1, A_Index)
+    Gui, Show
+    Sleep, 100
+    Gui, Destroy
+}
+
