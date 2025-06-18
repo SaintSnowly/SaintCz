@@ -135,3 +135,16 @@ Explicação dele:
 - O script usa um loop While para continuar pedindo ao usuário para adivinhar até que ele acerte o número.
 - Dentro do loop, o script verifica se a resposta do usuário é menor ou maior que o número aleatório e exibe uma mensagem correspondente.
 
+
+
+
+*efeito de texto*
+
+Para executar o script é o mesmos passos dos outros 
+Explicação dele:
+
+- Esse script cria um efeito de texto que mostra a palavra "Olá, mundo!" sendo escrita lentamente.
+- A variável texto armazena o texto que será exibido.
+- O script usa um loop para criar uma GUI com um texto que mostra a palavra sendo escrita lentamente.
+- Dentro do loop, o script usa a função SubStr para extrair uma parte do texto e exibi-la na GUI.
+- O script pausa por 100 milissegundos antes de destruir a GUI e criar uma nova com a próxima parte do texto.
