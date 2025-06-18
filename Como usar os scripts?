@@ -97,3 +97,16 @@ Explicação dele:
 - Gui, Color define a cor do fundo da GUI (tela) com base no número aleatório.
 - Sleep pausa a execução do script por 1000 milissegundos (1 segundo) antes de repetir o loop.
 - Gui, Show mostra a GUI (tela) com a nova cor de fundo.
+
+
+
+
+*Cursor que foge do mouse*
+
+Para executar o script é o mesmos passos dos outros 
+Explicação dele:
+
+- Esse script usa um loop infinito para mover o cursor do mouse para longe da posição atual.
+- MouseGetPos obtém a posição atual do cursor do mouse e armazena as coordenadas x e y nas variáveis x e y.
+- MouseMove move o cursor do mouse para uma posição 10 pixels à direita e 10 pixels abaixo da posição atual.
+- Sleep pausa a execução do script por 100 milissegundos (0,1 segundos) antes de repetir o loop.
